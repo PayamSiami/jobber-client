@@ -33,7 +33,7 @@ const OfferModal: FC<IModalProps> = ({ header, gigTitle, receiver, authUser, sin
       const messageBody: IMessageDocument = {
         conversationId: `${singleMessage?.conversationId}`,
         hasConversationId: true,
-        body: 'Here\'s your custom offer',
+        body: "Here's your custom offer",
         gigId: singleMessage?.gigId,
         sellerId: singleMessage?.sellerId,
         buyerId: singleMessage?.buyerId,

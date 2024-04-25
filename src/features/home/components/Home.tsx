@@ -1,9 +1,6 @@
 import { FC, ReactElement, useEffect } from 'react';
 import { ISellerGig } from 'src/features/gigs/interfaces/gig.interface';
-import {
-  useGetGigsByCategoryQuery,
-  useGetTopRatedGigsByCategoryQuery
-} from 'src/features/gigs/services/gigs.service';
+import { useGetGigsByCategoryQuery, useGetTopRatedGigsByCategoryQuery } from 'src/features/gigs/services/gigs.service';
 import { ISellerDocument } from 'src/features/sellers/interfaces/seller.interface';
 import { useGetRandomSellersQuery } from 'src/features/sellers/services/seller.service';
 import TopGigsView from 'src/shared/gigs/TopGigsView';

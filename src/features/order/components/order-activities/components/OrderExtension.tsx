@@ -106,7 +106,7 @@ const OrderExtension: FC = (): ReactElement => {
                             onClick={() => {
                               setApprovalModalContent({
                                 header: 'Reject Extension',
-                                body: 'Are you sure you don\'t want to reconsider this extension request?',
+                                body: "Are you sure you don't want to reconsider this extension request?",
                                 btnText: 'Reject',
                                 btnColor: 'bg-red-500 hover:bg-red-400'
                               });
